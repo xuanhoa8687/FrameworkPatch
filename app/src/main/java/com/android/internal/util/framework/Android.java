@@ -1,4 +1,4 @@
-package com.android.internal.util.framework;
+package com.vnrom.framework;
 
 import android.app.Application;
 import android.content.Context;
@@ -67,6 +67,10 @@ public final class Android {
         map.put("SECURITY_PATCH", "2017-12-05");
         map.put("TYPE", "user");
         map.put("TAGS", "release-keys");
+        // add
+        map.put("HARDWARE", "");
+        map.put("BOARD", "");
+        map.put("DEVICE_INITIAL_SDK_INT", "24");
         try {
             certificateFactory = CertificateFactory.getInstance("X.509");
 
